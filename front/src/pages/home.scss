@@ -1,0 +1,121 @@
+.firstsec{
+    display: flex;
+    background-image: url("https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg.webp");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    .content{
+        display: flex;
+        padding-top: 200px;
+        .inner{
+            p{
+                font-size: 20px;
+            }
+            h2{
+                font-size: 50px;
+            }
+            .btn{
+                border-radius: 25px;
+                padding: 12px 30px;
+                color: white;
+                background-color: #F45D96;
+                font-size: 25px;
+            }
+        }
+    }
+    
+        
+    }
+}
+.secondsec{
+    margin-top: 50px;
+    .cards{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .contentsec{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 940px) {
+    .cards{
+        flex-direction: column;
+    }
+    .products{
+       flex-direction: column; 
+    }
+  }
+  .prodcontent{
+    text-align: center;
+  }
+.products{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .product{
+        width: 30%;
+        
+        .img{
+            width: 40%;
+            height: 20vh;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+        }
+    }
+}
+.col-6{
+    width: calc(100 / 12 * 6);
+}
+.thirdsec{
+    width: 100%;
+    margin-bottom: 100px;
+    .posts{
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        .post{
+            height: 20vh;
+            width: 23%;
+            .imageflow{
+                position: relative;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .content{
+                position: absolute;
+                border: 1px solid ;
+                
+                color: black;
+                background-color: white;
+                padding: 15px 25px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
